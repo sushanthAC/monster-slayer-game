@@ -32,7 +32,7 @@
       <section class="container" v-if="winnerBlock =='result'">
         <h2>Game Over</h2>
         <h3 v-if="winner == 'Monster'">You Lost</h3>
-        <h3 v-else-if="winner == 'Player'">You Win</h3>
+        <h3 v-else-if="winner == 'Player'">You Won</h3>
         <h3 v-else="winner == 'draw'">It's a draw</h3>
         <button @click="startNewGame">Start New Game</button>
       </section>
