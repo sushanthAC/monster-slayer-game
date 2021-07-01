@@ -117,3 +117,9 @@ button:disabled {
 .log--heal {
   color: green;
 }
+
+.footer {
+  margin: 35px auto;
+  text-align: center;
+  margin-bottom: 1px !important;
+}
