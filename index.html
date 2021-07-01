@@ -40,7 +40,6 @@
         <button @click="startNewGame">Start New Game</button>
       </section>
       <section id="controls" v-else="winnerBlock == 'continue'">
-        <p>Attack Monster with below Power Buttons</p>
         <button @click="attackMonster">ATTACK</button>
         <button :disabled="mayUseSpecialAttack" @click="specialAttack">SPECIAL ATTACK</button>
         <button :disabled="disableHeal" @click="healPlayer">HEAL</button>

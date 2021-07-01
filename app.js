@@ -72,6 +72,7 @@ const app = Vue.createApp({
             this.currentRound= 0;
             this.winner= null;
             this.winnerBlock = 'continue';
+            this.disableHeal = true
         },
         surrnder() {
             this.winnerBlock = 'result';
